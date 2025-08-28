@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Interactive Navigation Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <h1 class="brand">fortius</h1>
+            <ul>
+                <li><a href="#Homepage" class="active">Home page</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <section id="Home page" class="section Home page" data-color="#a8dadc">
+            <div class="overlay">
+                <h2></h2>
+                <p>Welcome to our Homepage.</p>
+                <button onclick="alert('Discover more about Klub K9!')">Learn More</button>
+            </div>
+        </section>
+
+        <section id="services" class="section Services" data-color="#0000FF">
+            <div class="overlay">
+                <h2>Services</h2>
+                <p>We gave you good services</p>
+                <button onclick="alert('Explore The Crystal Cave!')">Explore</button>
+            </div>
+        </section>
+
+        <section id="about" class="section About" data-color="#f4a261">
+            <div class="overlay">
+                <h2>About</h2>
+                <p> our website is good.</p>
+                <button onclick="alert('Discover the Branding Project!')">See More</button>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact" data-color="#FFA500">
+            <div class="overlay">
+                <h2>Contact Me</h2>
+                <p>Let's connect .</p>
+                <button onclick="alert('Let\'s Connect!')">Get in Touch</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
